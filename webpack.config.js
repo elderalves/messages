@@ -37,11 +37,14 @@ module.exports = {
     output: {
         filename: "index.js",
         path: path.resolve(__dirname, 'lib'),
+        library: 'SolarPopup',
+        libraryTarget: 'umd'
     },
     resolve: {
       // Add '.ts' and '.tsx' as resolvable extensions.
       extensions: [".ts", ".tsx", ".js", ".json"]
     },
+    devtool: "source-map",
     module: {
         rules: [
             {

@@ -1,6 +1,6 @@
 {
   "name": "@byui/messages",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A nice messager",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,6 +18,10 @@
   "files": [
     "lib/**/*"
   ],
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
   "devDependencies": {
     "@types/classnames": "^2.2.7",
     "@types/jest": "^23.3.13",
@@ -30,8 +34,6 @@
     "jest": "^23.6.0",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.16.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
     "sass-loader": "^7.1.0",
     "styles-loader": "^1.0.0",
     "ts-jest": "^23.10.5",
