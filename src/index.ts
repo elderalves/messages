@@ -1,1 +1,2 @@
-export const Greeter = (name: string) => `Hello ${name}`;
+export { default as Greeter } from './helpers/Greeter';
+export { default as Bye } from './helpers/Bye';
