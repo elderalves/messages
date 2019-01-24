@@ -1,6 +1,6 @@
 {
   "name": "@byui/messages",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "description": "A nice messager",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -27,6 +27,7 @@
     "@types/node": "^10.12.18",
     "@types/react": "^16.7.20",
     "@types/react-dom": "^16.0.11",
+    "autoprefixer": "^9.4.6",
     "awesome-typescript-loader": "^5.2.1",
     "classnames": "^2.2.6",
     "css-loader": "^2.1.0",
