@@ -1,10 +1,25 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "plugins": [{
+      "name": "typescript-plugin-css-modules",
+      "options": {
+        "customMatcher": "\\.m\\.scss$",
+        "camelCase": "dashes"
+      }
+    }],
+    "target": "esnext",
     "module": "commonjs",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
     "declaration": true,
     "removeComments": true,
+    "noImplicitAny": false,
     "sourceMap": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
     "jsx": "react",
     "outDir": "./lib",
     "strict": true,

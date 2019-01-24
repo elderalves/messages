@@ -1,0 +1,41 @@
+@import "../styles/shared.scss";
+
+.Button {
+  box-shadow: 0 1px 1px 0 rgba(19, 31, 21, 0.10), inset 0 2px 0 0 rgba(255, 255, 255, 0.06);
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &.disabled {
+    background-color: #F3F4F5;
+    border: 1px solid darken(#F3F4F5, 10%);
+    color: #7E8A95;
+    cursor: not-allowed;
+  }
+
+  &.primary {
+    background-color: $blueRoyal;
+    border: 1px solid darken($blueRoyal, 10%);
+    color: #fff;
+
+    &:hover {
+      background-color: lighten($blueRoyal, 5%);
+      border: 1px solid lighten(darken($blueRoyal, 10%), 5%);
+    }
+  }
+
+  &.success {
+    background: $green;
+    border: 1px solid darken($green, 10%);
+
+    &:hover {
+      background-color: lighten($green, 5%);
+      border: 1px solid lighten(darken($green, 10%), 5%);
+    }
+  }
+
+  &.sm {
+    padding: 4px 20px;
+  }
+}
