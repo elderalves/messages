@@ -1,6 +1,6 @@
 {
   "name": "@byui/messages",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A nice messager",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,8 +19,7 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^16.7.0"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.7",
