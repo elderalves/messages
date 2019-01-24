@@ -3,8 +3,20 @@
     "target": "es5",
     "module": "commonjs",
     "declaration": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "jsx": "react",
     "outDir": "./lib",
-    "strict": true
+    "strict": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "typeRoots": [
+      "index.d.ts",
+      "node_modules/@types"
+    ]
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
